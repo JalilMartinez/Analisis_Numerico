@@ -1,4 +1,4 @@
-#include<graphics.h>	
+	
 #include<windows.h>
 #include<stdlib.h>
 #include<math.h>
@@ -43,7 +43,7 @@ class Ecuacion{
 							cout<<"no converge";
 							return 0;
 						}
-						Gx=exp(-x)-3x;
+						Gx=exp(-x)-3 x;
 						Er=fabs((Gx-x)/2);
 						x=Gx
 					}while(Er>=0.1);
